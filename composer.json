@@ -1,0 +1,21 @@
+{
+    "name": "nfhub/consulta",
+    "description": "Biblioteca para comunicaçao com a API de consultas do NFHub",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Almeida",
+            "email": "diego.feres82@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NFHub\\Consulta\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "nfhub/common": "dev-master"
+    }
+}
